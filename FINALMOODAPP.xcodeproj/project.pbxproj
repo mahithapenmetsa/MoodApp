@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1A66CB824C0B116009348E9 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A66CB724C0B116009348E9 /* MonthView.swift */; };
+		D1A66CBA24C0B20C009348E9 /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A66CB924C0B20C009348E9 /* WeekdaysView.swift */; };
+		D1A66CBC24C0B22A009348E9 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A66CBB24C0B22A009348E9 /* CalendarView.swift */; };
+		D1A66CBE24C0B452009348E9 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A66CBD24C0B452009348E9 /* ActivityViewController.swift */; };
 		D1EF619B24BF5536004E219B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EF619A24BF5536004E219B /* AppDelegate.swift */; };
 		D1EF619D24BF5536004E219B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EF619C24BF5536004E219B /* SceneDelegate.swift */; };
 		D1EF619F24BF5536004E219B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EF619E24BF5536004E219B /* FirstViewController.swift */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1A66CB724C0B116009348E9 /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		D1A66CB924C0B20C009348E9 /* WeekdaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
+		D1A66CBB24C0B22A009348E9 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		D1A66CBD24C0B452009348E9 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		D1EF619724BF5536004E219B /* FINALMOODAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FINALMOODAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1EF619A24BF5536004E219B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1EF619C24BF5536004E219B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,11 +68,15 @@
 		D1EF619924BF5536004E219B /* FINALMOODAPP */ = {
 			isa = PBXGroup;
 			children = (
+				D1A66CB724C0B116009348E9 /* MonthView.swift */,
 				D1EF619A24BF5536004E219B /* AppDelegate.swift */,
 				D1EF619C24BF5536004E219B /* SceneDelegate.swift */,
 				D1EF619E24BF5536004E219B /* FirstViewController.swift */,
 				D1EF61A024BF5536004E219B /* SecondViewController.swift */,
+				D1A66CB924C0B20C009348E9 /* WeekdaysView.swift */,
+				D1A66CBB24C0B22A009348E9 /* CalendarView.swift */,
 				D1EF61A224BF5536004E219B /* Main.storyboard */,
+				D1A66CBD24C0B452009348E9 /* ActivityViewController.swift */,
 				D1EF61A824BF5538004E219B /* Assets.xcassets */,
 				D1EF61AA24BF5538004E219B /* LaunchScreen.storyboard */,
 				D1EF61AD24BF5538004E219B /* Info.plist */,
@@ -148,7 +160,11 @@
 				D1EF61A724BF5536004E219B /* FINALMOODAPP.xcdatamodeld in Sources */,
 				D1EF619F24BF5536004E219B /* FirstViewController.swift in Sources */,
 				D1EF619B24BF5536004E219B /* AppDelegate.swift in Sources */,
+				D1A66CBE24C0B452009348E9 /* ActivityViewController.swift in Sources */,
+				D1A66CBC24C0B22A009348E9 /* CalendarView.swift in Sources */,
+				D1A66CBA24C0B20C009348E9 /* WeekdaysView.swift in Sources */,
 				D1EF619D24BF5536004E219B /* SceneDelegate.swift in Sources */,
+				D1A66CB824C0B116009348E9 /* MonthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
