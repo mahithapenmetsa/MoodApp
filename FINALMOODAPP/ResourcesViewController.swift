@@ -15,19 +15,6 @@ class ResourcesViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     
-        func music1button(_ sender: Any) {
-        if let url = NSURL(string: "spotify.com/us/") {
-                   UIApplication.shared.open(url as URL, options:[:], completionHandler:nil)
-
-               }
-        
-    }
-    
-        func cakebutton(_ sender: Any) {
-       if let url = NSURL(string: "https://sallysbakingaddiction.com/vanilla-cake/") {
-                    UIApplication.shared.open(url as URL, options:[:], completionHandler:nil)
-    
-    }
     /*
     // MARK: - Navigation
 
@@ -37,7 +24,21 @@ class ResourcesViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
+    @IBAction func musicbutton1(_ sender: Any) {
+        if let url = NSURL(string: "spotify.com/us/") {
+                          UIApplication.shared.open(url as URL, options:[:], completionHandler:nil)
+
+                    
+        
+    }
+        
+}
+    @IBAction func cakebutton1(_ sender: Any) {
+        if let url = NSURL(string: "https://sallysbakingaddiction.com/vanilla-cake/") {
+        UIApplication.shared.open(url as URL, options:[:], completionHandler:nil)
+        
+    }
+    
 }
 }
